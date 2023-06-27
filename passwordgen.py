@@ -5,9 +5,9 @@ symbols = ['~','`','!', '@','#', '$', '%', '&', '(', ')', '*', '+',':',';','/','
 
 
 def genPassword():
-    letterPrompt = int(input("How many letters would you like in your password?\n"))
-    numberPrompt = int(input(f"How many numbers would you like?\n"))
-    symbolPrompt= int(input(f"How many symbols would you like?\n"))
+    letterPrompt = int(input("How many letters do you want in your password?\n"))
+    numberPrompt = int(input(f"How many numbers?\n"))
+    symbolPrompt= int(input(f"How many symbols? \n"))
 
     password_list = []
 
